@@ -2,6 +2,12 @@
 
 A python library using nltk to analyse two books and generate a new one.
 
+## Installation
+
+`pip install bookgen`
+
+## Usage
+
 ```py
 from bookgen import BookGen
 
@@ -10,6 +16,8 @@ book = BookGen("word_base_book.txt", "sentence_base_book.txt")
 
 print(book.run())
 ```
+
+## Explanation
 
 BookGen will parse word classes from the first specified book, looking like this:
 
