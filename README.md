@@ -6,6 +6,8 @@ A python library using nltk to analyse two books and generate a new one.
 from bookgen import BookGen
 
 book = BookGen("word_base_book.txt", "sentence_base_book.txt")
+# book.download() will download the nltk extras required, only needed once
+
 print(book.run())
 ```
 
